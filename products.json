@@ -1,0 +1,62 @@
+{
+	 "items":[
+		 {
+		    "prod": {
+
+			"item1":{
+				"id": "PROD-1",
+				"name": "Boys' Stillwater Sherpa 1/4-Zip",
+				"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+				"rating": 4,
+				"image": "prod-img-1.jpg",
+				"price": "98.50",
+				"leftImage":{"image1":"prod-img-2.jpg", "image2":"prod-img-1.jpg", "image3":"prod-img-1.jpg"}
+				
+			},
+					
+			"item2" : {
+				 "id": "PROD-2",
+					"name": "Boys' Stillwater Sherpa 1/4-Zip",
+					"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+					"rating": 4,
+					"image": "prod-img-1.jpg",
+					"price": { "amount": "98.50", "currency": "$" },
+					"leftImage":{"image1":"prod-img-1.jpg", "image2":"prod-img-1.jpg", "image3":"prod-img-1.jpg"}
+				},
+		"item3":{
+			"id": "PROD-3",
+			"name": "Boys' Stillwater Sherpa 1/4-Zip",
+			"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+			"rating": 4,
+			"image": "prod-img-1.jpg",
+			"price": { "amount": "98.50", "currency": "$" },
+			"leftImage":{"image1":"prod-img-1.jpg", "image2":"prod-img-1.jpg", "image3":"prod-img-1.jpg"}
+		}
+		 },
+	
+		"sizes": {
+			 "txt1": "S" ,
+			 "txt2": "M", 
+			 "txt3": "XL", 
+			 "txt4": "XXL", 
+			 "txt5": "2T", 
+			 "txt6": "3T" 
+		},
+		"colors": 
+			{
+				"col1": "Orange",
+				"hex1": "#f39c12",
+			
+			
+				"col2": "Nectarine",
+				"hex2": "#ffbe76",
+			
+			
+				"col3": "Purple",
+				"hex3": "#8e44ad"
+			}
+		}
+	 ]
+	
+}
+

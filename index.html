@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+      <a href="#" class="cart" style="font-size: 1.5em">
+        👜 <span class="cart-count" id="cart-count">0</span>
+      </a>
+    </header>
+    <!-- -----------------------------------------------------starting now-->
+    <div class="homenav">
+      <span class="homenavtop">Home &gt;</span>
+      <span class="homenavtop">Sale &gt;</span>
+      <span class="homenavtop">Kids &gt;</span>
+      <span class="homenavtop">Boys &gt;</span>
+    </div>
+
+    <main class="product-page"></main>
+
+    <div class="overlay"></div>
+    <div class="mini-cart-wrapper">
+      <aside class="mini-cart">
+        <div class="head">
+          <span class="item-to-cart">1</span> Item added to Cart
+        </div>
+
+        <div class="body">
+          <!--<div class="item-wrap primary--text"></div>-->
+
+          <div class="info">
+            CART SUBTOTAL:
+            <span class="subtotal"> $<b data-var="prod-total"></b> </span>
+          </div>
+          <div class="button-set" style="margin-top: 10%">
+            <a href="cart.html">CHECKOUT</a>
+            <button class="outlined close-cart">Continue shopping</button>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

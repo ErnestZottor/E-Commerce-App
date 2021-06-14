@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/general.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+          <strong class="cart-total-title">Subtotal: </strong>
+          <span class="cart-total-price"></span>
+        </div>
+        <button
+          class="btn btn-primary btn-purchase"
+          id="btn-purchase"
+          type="button"
+        >
+          PURCHASE
+        </button>
+      </section>
+      <aside class="order-summary">
+        <div class="head">
+          <h3>Order Summary</h3>
+          <span><span data-var="cart-count"></span> items total</span>
+        </div>
+        <div class="body">
+          <div class="d-flex">
+            <span>Subtotal</span>
+            <span class="spacer"></span>
+            <span>$ </span>
+            <span class="sub-total"> 100</span>
+          </div>
+
+          <div class="d-flex">
+            <span>Sales Tax</span>
+            <span class="spacer"></span>
+            <span>$0.0</span>
+          </div>
+
+          <div class="d-flex">
+            <span>Discount</span>
+            <span class="spacer"></span>
+            <span>$</span>
+            <span class="discount">0.0</span>
+          </div>
+
+          <div class="d-flex">
+            <span>TOTAL</span>
+            <span class="spacer"></span>
+            <h3>
+              <span>$</span>
+              <span class="total-checkout"></span>
+            </h3>
+          </div>
+
+          <p class="primary--text" style="font-weight: 600">Apply promo code</p>
+          <div class="d-flex">
+            <input
+              maxlength="5"
+              type="text"
+              class="input-field"
+              placeholder="Enter promo code"
+              style="flex-grow: 1"
+            />
+            <button class="btn apply-code-btn">Apply</button>
+          </div>
+
+          <div class="button-set">
+            <button>Checkout</button>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <script src="cart.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
